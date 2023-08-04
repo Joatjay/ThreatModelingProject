@@ -129,10 +129,15 @@ Logical Topology <br/>
 
 The STRIDE model is a threat modeling framework used to analyse and identify potential threats to software systems. It helps security professionals and developers understand and mitigate security risks by considering six categories of threats: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege.<br/>
 
-<p align="center">
-Each threat is a violation of a desirable property for a system <br/>
-<img src="https://i.imgur.com/TWbcFxT.png" height="80%" width="80%" alt="Logical Topology"/>
-<br />
+| STRIDE          | Desired Property | Possible Threats       |
+|---------------|-----|------------------|
+| Spoofing      | Authenticity  | Identity Spoofing, Session Hijacking|
+| Tampering   | Integrity  | Cross-site Scripting (XSS), SQL Injection |
+| Repudiation | Non-Repudiability  | No Audit Logs, Security Logging and Monitoring Failures  |
+| Information Disclosure | Confidentiality  | Insufficient Encryption, Misconfigured Systems  |
+| Denial od Service (DoS) | Availability  | DDoS, Phlashing(Permanent DoS attack) |
+| Elevation of Privilege | Authorization  | Credential Theft, Privilege Escalation Exploits   |
+
 
 
 <h3>PHASE 5: DOCUMENT THREATS</h3>

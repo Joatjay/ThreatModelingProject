@@ -34,12 +34,12 @@ Project consists of developing a distributed web store architecture using Python
 
 <h2>Tools Used</h2>
 
-- <b>OWASP Threat Dragon</b> 
-- <b>Lucid Chart</b> 
+- [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)<br/> 
+- [Lucid Chart](https://www.lucidchart.com/pages/landing?utm_source=google&utm_medium=cpc&utm_campaign=_chart_en_tier1_mixed_search_brand_exact_&km_CPC_CampaignId=1490375427&km_CPC_AdGroupID=55688909257&km_CPC_Keyword=lucid%20chart&km_CPC_MatchType=e&km_CPC_ExtensionID=&km_CPC_Network=g&km_CPC_AdPosition=&km_CPC_Creative=354596043016&km_CPC_TargetID=kwd-55720648523&km_CPC_Country=9071816&km_CPC_Device=c&km_CPC_placement=&km_CPC_target=&gclid=Cj0KCQjwoK2mBhDzARIsADGbjerltYFaqk8q1eybf2GmvTot07b8C21MaJKrjg1XNk-t1vIB8Z76jroaAsJqEALw_wcB)
 
 <h2>Environments Used </h2>
 
-- <b> Kali Linux</b> (21H2)
+- <b> [Kali Linux](https://www.kali.org/)</b>
 
 With these objectives in mind, we can proceed to threat modelling of the application.
 
@@ -90,8 +90,6 @@ Third-Party Payment Processor: The external service provider responsible for pro
 •	Generic Hackers: Non-targeted hackers who exploit known vulnerabilities or use automated tools to gain unauthorized access or disrupt systems.<br/>
 •	Competitors: Online competitors seeking to gain advantage or disrupt BigMart's business by exploiting vulnerabilities or conducting malicious activities.<br/>
 •	Data Brokers: Entities interested in obtaining customer data for unauthorized marketing purposes or selling it on the dark web.<br/>
-
-
 
  
 <h2>PHASE 2: CREATE ARCHITECTURAL OVERVIEW</h2>

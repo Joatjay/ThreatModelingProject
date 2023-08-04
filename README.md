@@ -129,6 +129,12 @@ Logical Topology <br/>
 
 The STRIDE model is a threat modeling framework used to analyse and identify potential threats to software systems. It helps security professionals and developers understand and mitigate security risks by considering six categories of threats: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege.<br/>
 
+<p align="center">
+Each threat is a violation of a desirable property for a system <br/>
+<img src="https://i.imgur.com/TWbcFxT.png" height="80%" width="80%" alt="Logical Topology"/>
+<br />
+
+
 <h3>PHASE 5: DOCUMENT THREATS</h3>
 
 
@@ -137,12 +143,6 @@ The STRIDE model is a threat modeling framework used to analyse and identify pot
 | Identity Spoofing | An attacker impersonates another user by using stolen credentials or manipulating authentication mechanisms to gain unauthorized access. A hacker steals a user's login credentials and logs into their account, pretending to be the legitimate user. | User accounts or profiles Authentication systems | Phishing: Attackers send fraudulent emails or messages to trick users into revealing their login credentials or personal information. Man-in-the-Middle (MitM) Attack: Attackers intercept communication between a user and a server, impersonating the user to gain unauthorized access.| Multi-factor authentication: Implementing additional verification steps, such as one-time passwords or biometric authentication, adds an extra layer of security. Strong password policies: Enforcing complex passwords and regular password updates reduces the risk of easy-to-guess credentials. | Medium |
 | Session Hijacking | An attacker intercepts and takes control of an ongoing session between a user and a system, allowing them to perform actions on behalf of the user. An attacker captures the session cookie of a logged-in user and uses it to gain unauthorized access to the user's account. | Active user sessions Web application session management systems | Session sniffing: Attackers intercept and capture session data, such as session IDs, to hijack an ongoing session. Session sidejacking: Attackers exploit insecure communication channels (e.g., unencrypted Wi-Fi) to intercept session information and gain unauthorized access. | Transport Layer Security (TLS): Encrypting session data using HTTPS helps prevent session data interception.Session timeouts and re-authentication: Implementing session timeouts and periodically requiring users to re-authenticate mitigates the risk of prolonged session hijacking. | Medium |
 
-
-
-<p align="center">
-Each threat is a violation of a desirable property for a system <br/>
-<img src="https://i.imgur.com/TWbcFxT.png" height="80%" width="80%" alt="Logical Topology"/>
-<br />
 
 
 

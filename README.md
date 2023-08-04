@@ -139,13 +139,6 @@ The STRIDE model is a threat modeling framework used to analyse and identify pot
 
 
 
-
-  | Software Engineer|
-| Jane Smith    | 28  | Data Analyst     |
-| Michael Brown | 35  | Project Manager  |
-
-
-
 <p align="center">
 Each threat is a violation of a desirable property for a system <br/>
 <img src="https://i.imgur.com/TWbcFxT.png" height="80%" width="80%" alt="Logical Topology"/>
